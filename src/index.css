@@ -1,0 +1,34 @@
+@import './styles/variables.css';
+@import './styles/reset.css';
+@import './styles/layout.css';
+
+@import './components/layout/Header.css';
+@import './components/layout/Sidebar.css';
+
+@import './components/common/Card.css';
+@import './components/common/TabNavigation.css';
+@import './components/common/CriteriaIndicator.css';
+
+@import './components/dashboard/ProjectTimeline.css';
+@import './components/dashboard/StatsCards.css';
+@import './components/dashboard/ProgressStatus.css';
+@import './components/dashboard/ComplianceScore.css';
+@import './components/dashboard/TopLeaders.css';
+@import './components/dashboard/RecentActivities.css';
+@import './components/dashboard/MonthlyPerformance.css';
+@import './components/dashboard/AuditReadiness.css';
+
+@import './components/details/DetailsHeader.css';
+@import './components/details/EvidenceSummary.css';
+@import './components/details/OverviewTab.css';
+@import './components/details/EvidenceTab.css';
+@import './components/details/CommentsSection.css';
+@import './components/details/ActivitiesPanel.css';
+
+@import './pages/Dashboard.css';
+@import './pages/DetailsPage.css';
+@import './pages/LoginPage.css';
+@import './pages/ErrorPages.css';
+
+@import './components/ui/Button/Button.css';
+@import './components/ui/Input/Input.css';

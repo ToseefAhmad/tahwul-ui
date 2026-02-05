@@ -1,0 +1,82 @@
+.details-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.back-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0;
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1e3a5f;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.back-button:hover {
+  color: #3b82f6;
+}
+
+.back-button svg {
+  color: #1e3a5f;
+}
+
+.details-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1D3557;
+}
+
+.details-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.banner-content {
+  flex: 1;
+}
+
+.category-badge {
+  display: inline-block;
+  padding: 10px;
+  background: #f1f5f9;
+  color: #6b7280;
+  border-radius: 30px;
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 12px;
+  border: 1px solid #E0E8ED
+}
+
+.banner-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1e3a5f;
+  margin: 0 0 8px 0;
+}
+
+.banner-description {
+  font-size: 13px;
+  color: #6b7280;
+  line-height: 1.5;
+  max-width: 700px;
+  margin: 0;
+}
+
+.banner-progress {
+  flex-shrink: 0;
+  margin-left: 24px;
+}
+
+.banner-progress svg {
+  display: block;
+}

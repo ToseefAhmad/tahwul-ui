@@ -1,0 +1,77 @@
+.audit-readiness-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.audit-readiness-card .card-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1e3a5f;
+  margin-bottom: 16px;
+}
+
+.audit-gauge-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding-top: 10px;
+}
+
+.audit-gauge {
+  width: 160px;
+  height: 90px;
+}
+
+.audit-value {
+  position: absolute;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.audit-percentage {
+  font-size: 36px;
+  font-weight: 700;
+  color: #22c55e;
+  line-height: 1;
+}
+
+.audit-label {
+  font-size: 12px;
+  color: #22c55e;
+  margin-top: 4px;
+  text-align: center;
+}
+
+.audit-stats {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  padding-top: 20px;
+  margin-top: 16px;
+  border-top: 1px solid #f3f4f6;
+}
+
+.audit-stat {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.audit-stat-value {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1e3a5f;
+  line-height: 1.2;
+}
+
+.audit-stat-label {
+  font-size: 11px;
+  color: #6b7280;
+  margin-top: 4px;
+}

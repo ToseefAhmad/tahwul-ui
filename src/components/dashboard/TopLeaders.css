@@ -1,0 +1,60 @@
+.top-leaders-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.top-leaders-card .card-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1D3557;
+  margin-bottom: 20px;
+}
+
+.leaders-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.leader-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  hr {
+    border: 1px solid #E0E8ED
+  }
+}
+
+.leader-avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.leader-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.leader-name {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1D3557;
+}
+
+.leader-perspective {
+  font-size: 12px;
+  color: #8597A8;
+}
+
+.leader-score {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1D3557;
+}

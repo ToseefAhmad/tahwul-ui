@@ -3,11 +3,11 @@ import { useNavigate } from 'react-router-dom';
 import { Search, Bell, ChevronDown, LogOut } from 'lucide-react';
 import { useAuth } from '../../context/AuthContext';
 
-interface HeaderProps {
-  onToggleSidebar?: () => void;
-}
+// interface HeaderProps {
+//   onToggleSidebar?: () => void;
+// }
 
-export function Header({ onToggleSidebar }: HeaderProps) {
+export function Header() {
   const [showUserDropdown, setShowUserDropdown] = useState(false);
   const { user, logout } = useAuth();
   const navigate = useNavigate();
